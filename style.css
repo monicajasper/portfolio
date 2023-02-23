@@ -6,7 +6,9 @@ Use CSS Grid
 
 :root{
   /*variables*/
-  --color-purple: #8803fc;
+  /*--color-purple: #8803fc;*/
+  --color-purple: hsl(270, 25%, 50%);
+  --color-junglegr: hsl(160, 45%, 45%);
   --color-teal: #03A9FC;
   --color-dkpurp: #550077;
   --color-dkblue: #004F97;
@@ -44,7 +46,7 @@ Use CSS Grid
     padding: 1em 2em;
     font-family: var(--font-header);
     font-size: 1.2em;
-    background: linear-gradient(170deg, var(--color-teal) 60%, var(--color-dkblue));
+    background: linear-gradient(170deg, var(--color-junglegr) 60%, var(--color-dkblue));
     box-shadow: 1px 2px 2px rgba(50, 50, 50, 0.5);
   }
   
