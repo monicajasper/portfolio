@@ -173,8 +173,8 @@ Use CSS Grid
     color: var(--color-junglegr);
   }
   
-  /*Contact*/
-  #contact
+  /*Contact and temp Map*/
+  #contact, #map
   {
     display: flex;
     flex-flow: column wrap;
@@ -182,13 +182,13 @@ Use CSS Grid
     justify-items: center;
     background: linear-gradient(190deg, var(--color-purple) 60%, var(--color-dkpurp));
   
-    padding-top: 2em;
+    padding-top: 2em 0 3em 0;
   }
   
   .contact-logo
   {
     width: 3em;
-    margin: 0em 1em 3em 1em;
+    margin: 0em 1em;
   }
   
   footer
