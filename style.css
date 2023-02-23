@@ -6,10 +6,12 @@ Use CSS Grid
 
 :root{
   /*variables*/
-  /*--color-purple: #8803fc;*/
-  --color-purple: hsl(270, 25%, 50%);
-  --color-junglegr: hsl(160, 45%, 45%);
+  /*--color-purple: #8803fc;
   --color-teal: #03A9FC;
+  --color-purple: hsl(270, 25%, 50%);
+  --color-junglegr: hsl(160, 45%, 45%);*/
+  --color-purple: hsl(270, 17%, 50%);
+  --color-junglegr: hsl(165, 45%, 45%);
   --color-dkpurp: #550077;
   --color-dkblue: #004F97;
   --color-gray: #CCC;
@@ -168,7 +170,7 @@ Use CSS Grid
   
   .project-tile:hover .code
   {
-    color: var(--color-teal);
+    color: var(--color-junglegr);
   }
   
   /*Contact*/
