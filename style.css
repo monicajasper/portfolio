@@ -72,7 +72,7 @@ Use CSS Grid
     font: black;  
   }
   
-  a:hover, .project-tile .project-name:hover
+  a:hover, .project-tile .project-name:hover, #map p:hover
   {
     color: var(--color-gray);
   }
@@ -173,8 +173,19 @@ Use CSS Grid
     color: var(--color-junglegr);
   }
   
-  /*Contact and temp Map*/
-  #contact, #map
+  /*Map*/
+  #map
+  {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-items: center;
+    background: var(--color-dkpurp);
+    padding: 2em;
+  }
+
+  /*Contact*/
+  #contact
   {
     display: flex;
     flex-flow: column wrap;
