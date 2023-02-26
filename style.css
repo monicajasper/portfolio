@@ -31,7 +31,7 @@ Use CSS Grid
   html
   {
     font-family: var(--font-header);
-    background-color: var(--color-junglegr);
+    background-color: var(--color-teal);
   }
   
   body
@@ -89,7 +89,7 @@ Use CSS Grid
     height: 100vh;
     width: 100%;
     padding: 0px;
-    background-color: var(--color-dkblue);
+    background-color: var(--color-dkteal);
   }
   
   #welcome-section p
@@ -100,8 +100,6 @@ Use CSS Grid
     font-size: 1.6em;
     line-height: 1.5em;
     max-width: 350px;
-    font: var(--color-gray);
-
   }
   
   h1,h2,li
@@ -144,13 +142,11 @@ Use CSS Grid
   {
     margin: auto auto;
     background-color: var(--color-mddkblue);
-    mddkblue
     font-family: var(--font-header);
     font: black;
     box-shadow: 1px 1px 2px rgba(100, 100, 100, 0.8);
     border: solid black 0.5px;
     border-radius: 10px;
-  
   }
   
   .project-image
@@ -186,7 +182,7 @@ Use CSS Grid
     flex-flow: column wrap;
     align-items: center;
     justify-items: center;
-    background: var(--color-mddkblue);
+    background: var(--color-teal);
     padding: 2em;
   }
 
@@ -198,7 +194,7 @@ Use CSS Grid
     align-items: center;
     justify-items: center;
     /*background: linear-gradient(190deg, var(--color-purple) 60%, var(--color-dkpurp));*/
-    background: linear-gradient(170deg, var(--color-junglegr) 60%, var(--color-dkblue));
+    background: linear-gradient(190deg, var(--color-junglegr) 60%, var(--color-dkblue));
     box-shadow: 1px 2px 2px rgba(50, 50, 50, 0.5);
   
     padding: 2em;
