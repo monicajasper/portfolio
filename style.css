@@ -75,7 +75,7 @@ Use CSS Grid
     font: black;  
   }
   
-  a:hover, .project-tile .project-name:hover, #map p:hover
+  a:hover, .project-tile .project-name:hover
   {
     color: var(--color-gray);
   }
@@ -172,7 +172,7 @@ Use CSS Grid
   
   .project-tile:hover .code
   {
-    color: var(--color-teal);
+    color: var(--color-junglegr);
   }
   
   /*Map*/
@@ -193,8 +193,7 @@ Use CSS Grid
     flex-flow: column wrap;
     align-items: center;
     justify-items: center;
-    /*background: linear-gradient(190deg, var(--color-purple) 60%, var(--color-dkpurp));*/
-    background: linear-gradient(190deg, var(--color-junglegr) 60%, var(--color-dkblue));
+    background: linear-gradient(180deg, var(--color-junglegr) 25%, var(--color-dkblue));
     box-shadow: 1px 2px 2px rgba(50, 50, 50, 0.5);
   
     padding: 2em;
