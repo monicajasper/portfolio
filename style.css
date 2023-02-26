@@ -89,7 +89,7 @@ Use CSS Grid
     height: 100vh;
     width: 100%;
     padding: 0px;
-    background-color: var(--color-teal);
+    background-color: var(--color-dkblue);
   }
   
   #welcome-section p
@@ -100,6 +100,8 @@ Use CSS Grid
     font-size: 1.6em;
     line-height: 1.5em;
     max-width: 350px;
+    font: var(--color-gray);
+
   }
   
   h1,h2,li
@@ -141,7 +143,8 @@ Use CSS Grid
   .project-tile
   {
     margin: auto auto;
-    background-color: var(--color-156495);
+    background-color: var(--color-mddkblue);
+    mddkblue
     font-family: var(--font-header);
     font: black;
     box-shadow: 1px 1px 2px rgba(100, 100, 100, 0.8);
@@ -167,7 +170,7 @@ Use CSS Grid
   }
   
   .code {
-    color: var(--color-dkblue);
+    color: var(--color-teal);
     transition: color 0.3s ease-out;
   }
   
@@ -183,7 +186,7 @@ Use CSS Grid
     flex-flow: column wrap;
     align-items: center;
     justify-items: center;
-    background: var(--color-dkblue);
+    background: var(--color-mddkblue);
     padding: 2em;
   }
 
@@ -194,7 +197,9 @@ Use CSS Grid
     flex-flow: column wrap;
     align-items: center;
     justify-items: center;
-    background: linear-gradient(190deg, var(--color-purple) 60%, var(--color-dkpurp));
+    /*background: linear-gradient(190deg, var(--color-purple) 60%, var(--color-dkpurp));*/
+    background: linear-gradient(170deg, var(--color-junglegr) 60%, var(--color-dkblue));
+    box-shadow: 1px 2px 2px rgba(50, 50, 50, 0.5);
   
     padding: 2em;
   }
