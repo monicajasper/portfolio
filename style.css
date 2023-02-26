@@ -31,6 +31,7 @@ Use CSS Grid
   html
   {
     font-family: var(--font-header);
+    color: black;
     background-color: var(--color-teal);
   }
   
@@ -78,6 +79,8 @@ Use CSS Grid
   a:hover, .project-tile .project-name:hover
   {
     color: var(--color-gray);
+    transition: color 0.3s ease-out;
+
   }
   
   /*About*/
