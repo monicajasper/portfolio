@@ -6,10 +6,6 @@ Use CSS Grid
 
 :root{
   /*variables*/
-  /*--color-purple: #8803fc;
-  --color-teal: #03A9FC;
-  --color-purple: hsl(270, 25%, 50%);
-  --color-junglegr: hsl(160, 45%, 45%);*/
   --color-mddkblue: #156495;
   --color-teal: #2e8890;
   --color-dkteal: #247588;
@@ -30,7 +26,6 @@ Use CSS Grid
   
   html
   {
-    font-family: var(--font-header);
     color: black;
     background-color: var(--color-teal);
   }
@@ -144,7 +139,6 @@ Use CSS Grid
     margin: auto auto;
     background-color: var(--color-mddkblue);
     font-family: var(--font-header);
-    font: black;
     box-shadow: 1px 1px 2px rgba(100, 100, 100, 0.8);
     border: solid black 0.5px;
     border-radius: 10px;
