@@ -26,6 +26,7 @@ Use CSS Grid
   
   html
   {
+    font-family: var(--font-header);
     color: black;
     background-color: var(--color-teal);
   }
