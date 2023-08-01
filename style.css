@@ -178,7 +178,7 @@ Use CSS Grid
     flex-flow: column wrap;
     align-items: center;
     justify-items: center;
-    background: var(--color-mddkblue);
+    background: var(--color-dkteal);
     padding: 2em;
   }
 
